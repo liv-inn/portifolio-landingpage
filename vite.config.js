@@ -9,7 +9,10 @@ export default defineConfig({
       config: {
         content: ['./src/**/*.{js,jsx,ts,tsx}'],
         theme: {
-          extend: {},
+          extend: {
+                   backgroundOpacity: ['active'],
+
+          },
         },
         plugins: [],
       },
